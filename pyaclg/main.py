@@ -1,6 +1,8 @@
 from git import Repo
+from click import command
 
 
+@command()
 def main():
     repo = Repo()
     commits = repo.iter_commits('master')
