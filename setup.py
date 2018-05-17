@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyaclg',
-    version='0.2.0',
+    version='0.3.0',
     description='Auomatic Changelog Git',
     author='Santiago Blanco Ventas',
     license='MIT',
